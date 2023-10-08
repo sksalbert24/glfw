@@ -1,7 +1,7 @@
 project "Glfw"
 	kind "StaticLib"
 		language "C"
-		staticruntime "off"
+		staticruntime "on"
 		warnings "off"
 
 		targetdir "Build/%{cfg.buildcfg}"
